@@ -1,0 +1,31 @@
+/* 
+-  FOR DIFFERENT COLORS: 
+
+   (1) You can use the 147 CSS colors: http://www.colors.commutercreative.com/grid/
+   (2) ... or you can use hexidecimal color codes: http://html-color-codes.info/   
+    .content u
+    background-color: LemonChiffon !important;
+*/ 
+u {
+    color: #81ec80;
+}
+
+i {
+    color: #85c2f4;
+    font-size: 100%;
+}
+
+b {
+    color: #00bfff;
+    font-weight: bold;
+}
+
+h {
+    color: #144a74;
+    font-weight: bold;
+}
+
+/* MAKE ALL BULLET GAPS THE SAME 将node边距调整为相同，以防止缩进时出现的多余的高度 */
+[class*="OutlinerItem-module_children"] {
+padding-bottom: 0px;
+}
