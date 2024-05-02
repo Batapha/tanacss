@@ -1,2 +1,2 @@
 # tanacss
-tana
+css for tana app
